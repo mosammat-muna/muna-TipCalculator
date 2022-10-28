@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+body {
+  padding-top: 140px;
+  background: url('pic.jpg') 
+  no-repeat;
+  background-size: cover;
+  }
+#results {
+    display:none;
+  }
+  input{
+    font-size: 50px;
+    font-family: 'Roboto', serif;
+    border: 1px solid #cecece;
+    background: #86c868;
+
+
+  }
+  h1{
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+  }
+  h1::after {
+    content: '';
+    background: #86d9dc;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
